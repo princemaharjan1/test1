@@ -1,0 +1,11 @@
+#OS files 
+thumbs.db
+
+#Editor files
+.vscode/
+
+#node /dependency folders (if you ever add them)
+node_modules/
+
+#Environment/secret files
+.env
