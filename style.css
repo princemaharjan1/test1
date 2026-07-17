@@ -112,7 +112,7 @@ body {
   font-size: 30px;
   line-height: 3;
 }
-.actual-cv{
+.actual-cv-fake{
   display: flex;
   justify-content: center;
   width: 87vw;
@@ -124,9 +124,143 @@ body {
   gap: 20px;
 
 }
-.cv-header{
-  height:200px;
-  width: 100%;
+.actual-cv{
+  height: 200vh;
+  width: 100vw;
 }
-=======
->>>>>>> parent of 3b94fa4 (stylesheet updated)
+.actual-cv-first{
+  display: flex;
+  justify-content: center;
+  gap : 20px;
+  width: 100%;
+  height: 20%;
+  background-color:black;
+  color: grey;
+  line-height: 2;
+}
+.actual-cv-left{
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  color: grey;
+  line-height: 2;
+}
+.actual-cv-right{
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.actual-cv-second{
+  display: flex;
+  justify-content: center;
+  gap : 20px;
+  width: 100%;
+  height: 80%;
+  background-color:black;
+  color: grey;
+  
+}
+.actual-cv-left-second{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* or use flex-start */
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  color: grey;
+}
+.actual-cv-right-second{
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  color: grey;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.information{
+ padding-left : 60px;
+  width: 377px;
+  height: 30%;
+  background-color: black;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+.information p{
+  text-align: left;
+}
+.languages{
+  padding-left : 60px;
+  margin-top: 20px;
+  width: 377px;
+  height: 25%;
+  background-color: black;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1;
+}
+.photo{
+    width:180px;
+    height:180px;
+    margin:auto;
+    margin-top:40px;
+    border-radius:50%;
+    overflow:hidden;
+    background:#e8d4c6;
+}
+.photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.line{
+    width:3px;
+    background:grey;
+}
+.education{
+  width: 100%;
+  height:17% ;
+  background-color: black;
+  color: grey;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 230px;
+  line-height: 1.5;
+}
+.experiences{
+  width: 100%;
+  height:17% ;
+  background-color: black;
+  color: grey;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 230px;
+}
+.hobbies{
+  width: 100%;
+  height:17% ;
+  background-color: black;
+  color: grey;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 230px;
+}
